@@ -49,7 +49,7 @@ const Home = ({ posts }: Props) => {
           <Link key={post._id} href={`/post/${post.slug.current}`}>
             <div className="group border rounded-lg overflow-hidden shadow-md cursor-pointer">
               <div>
-                <img className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" src={urlFor(post.mainImage.asset).url()!} alt="" />
+                <img className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" src={urlFor(post.mainImage.asset).url()!} alt="" />
               </div>
               <div className="flex justify-between p-5 bg-white">
                 <div>
